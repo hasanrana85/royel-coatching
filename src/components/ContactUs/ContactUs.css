@@ -1,0 +1,28 @@
+.info{
+    /* border: 2px solid purple; */
+    border-radius: 10px;
+    padding: 40px 60px;
+    /* background-color: cornsilk; */
+}
+.cont-info{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+.contact{
+    display: flex;
+    justify-content:space-around;
+    background-color: plum;
+    margin: 30px;
+    border-radius: 10px;
+}
+.cont-single{
+    text-align: left;
+    margin-left: 20px;
+}
+.form{
+    /* background-color: cornsilk; */
+    padding: 40px 60px;
+    border-radius: 10px;
+}

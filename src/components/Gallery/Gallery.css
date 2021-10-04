@@ -1,0 +1,8 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+.gallery-main{
+ text-align: center;
+ margin: auto;
+}
