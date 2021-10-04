@@ -1,4 +1,3 @@
-import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import './ContactUs.css';
@@ -30,9 +29,7 @@ const ContactUs = () => {
                         <Form.Group className="mb-3" controlId="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Check me out" />
                         </Form.Group>
-                        <Button variant="primary" type="submit">
-                            Submit
-                        </Button>
+                        <button type="submit" style={{padding:"5px 15px", borderRadius:"5px", fontSize:"20px", border:"0", marginRight:"10px", backgroundColor:"purple", color:"white", fontWeight:"bolder"}}>Submit</button>
                     </Form>
                 </div>
                 <div className="info">

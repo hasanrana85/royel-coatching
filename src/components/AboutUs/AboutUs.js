@@ -1,4 +1,4 @@
-import Button from '@restart/ui/esm/Button';
+// import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import image from '../../images/nepal-article-photo.jpg';
 
@@ -9,7 +9,7 @@ const AboutUs = () => {
             <div style={{display:'flex'}}>
                 <div style={{width:'50%', paddingRight:'15px'}}>
                     <h2 style={{textAlign:'center', fontWeight:'bold', color:'blue', marginBottom: '30px', fontSize:'45px'}}>Why Choose Us</h2>
-                    <p style={{textAlign:'left'}}>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p style={{textAlign:'left'}}>The Royel Coatching is one of the latest IT technological based Coatching in Bangladesh where academic excellence is a tradition, teaching a passion and building career a habit. The Royel Coatching is sister concern of Real life Coatching Center. The Royel Coatching currently has more than 1000+ all kinds of undergraduate students and over 49 Experience faculties. The student population is projected to grow at 100% annually.</p>
                     <h5 style={{textAlign:'left', color:'magenta'}}>Separated they live</h5>
                     <h5 style={{textAlign:'left', color:'magenta'}}>Bookmarksgrove right at the coast</h5>
                     <h5 style={{textAlign:'left', color:'magenta'}}>large language ocean</h5>
@@ -28,8 +28,8 @@ const AboutUs = () => {
                         </div>
                     </div>
                     <div>
-                        <Button variant="primary">Addmission</Button>{' '}
-                        <Button variant="warning">Learn More</Button>{' '}
+                        <button style={{padding:"5px 15px", borderRadius:"5px", fontSize:"20px", border:"0", marginRight:"10px", backgroundColor:"purple", color:"white", fontWeight:"bolder"}}>Addmission</button>
+                        <button style={{padding:"5px 15px", borderRadius:"5px", fontSize:"20px", border:"0", backgroundColor:"purple", color:"white", fontWeight:"bolder"}}>Learn More</button>
                     </div>
                 </div>
                 <div style={{width:'50%', paddingLeft:'15px'}}>

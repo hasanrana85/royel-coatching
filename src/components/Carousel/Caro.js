@@ -1,8 +1,7 @@
 import React from 'react';
-import { CarouselItem, Carousel } from 'react-bootstrap';
+import {Carousel } from 'react-bootstrap';
 import logo from '../../images/images.jpg';
 import logo1 from '../../images/nepal-article-photo.jpg';
-import logo2 from '../../images/slider-2.jpg';
 import logo3 from '../../images/SSC-Syllabus.jpg';
 
 const Caro = () => {

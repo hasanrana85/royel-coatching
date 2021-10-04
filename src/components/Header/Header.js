@@ -1,9 +1,8 @@
 import React from 'react';
 import './Header.css';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import logo from '../../images/cropped-favicon.png';
-import Button from '@restart/ui/esm/Button';
-import { Link, NavLink } from 'react-router-dom';
+// import Button from '@restart/ui/esm/Button';
+import { NavLink } from 'react-router-dom';
 import Caro from '../Carousel/Caro';
 
 const Header = () => {
@@ -72,8 +71,8 @@ const Header = () => {
                 </ul>
             </div>
             <div>
-                <Button variant="primary">Login</Button>{' '}
-                <Button variant="secondary">Registration</Button>{' '}
+                <button style={{padding:"5px 15px", borderRadius:"5px", fontSize:"20px", border:"0", marginRight:"10px", backgroundColor:"purple", color:"white", fontWeight:"bolder"}}>Login</button>
+                <button style={{padding:"5px 15px", borderRadius:"5px", fontSize:"20px", border:"0", backgroundColor:"purple", color:"white", fontWeight:"bolder"}}>Registration</button>
             </div>
         </div>
         <div>
